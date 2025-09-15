@@ -103,8 +103,6 @@ Brindar a los adultos mayores un asistente digital que facilite su día a día c
 
 Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-## 🚀 Deploy en Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tu-usuario/cuidaia-app)
 
 # AI app for seniors
 

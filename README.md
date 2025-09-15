@@ -1,5 +1,111 @@
 # CuidaIA-Aplicacion-con-IA-Generativa
 CuidaIA es una aplicación web/móvil impulsada por Inteligencia Artificial Generativa, diseñada para mejorar la vida de los adultos mayores mediante recordatorios médicos, asistencia en tareas diarias, compañía conversacional y monitoreo de bienestar, con una interfaz accesible y fácil de usar.
+
+**CuidaIA** es una aplicación web desarrollada con **Next.js** y **TypeScript**, diseñada para mejorar la calidad de vida de los **adultos mayores** mediante el uso de **Inteligencia Artificial Generativa (IA Gen)**. La aplicación ofrece asistencia personalizada, recordatorios médicos, interacción conversacional y herramientas que promueven la autonomía, seguridad y bienestar.
+
+---
+
+## ✨ Funcionalidades principales
+
+* 🗓️ **Recordatorios médicos y de actividades**: gestión de medicamentos, citas y tareas diarias.
+* 💬 **Asistente conversacional con IA**: compañía y apoyo emocional mediante chat inteligente.
+* 👤 **Perfil médico personalizado**: almacenamiento de información relevante de salud.
+* 📊 **Panel de control**: vista centralizada del estado, actividades y recomendaciones.
+* 🎨 **Interfaz accesible y amigable**: botones claros, texto grande y navegación simple.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* **Framework:** [Next.js 13+ (App Router)](https://nextjs.org/)
+* **Lenguaje:** TypeScript
+* **Estilos:** TailwindCSS + shadcn/ui
+* **IA Generativa:** Integración con servicios externos (ej. OpenAI API)
+* **Estado y lógica:** React Hooks + Context API
+* **Analítica:** Vercel Web Analytics
+* **Gestión de paquetes:** pnpm
+
+---
+
+## 🚀 Instalación y uso
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/cuidaia-app.git
+cd cuidaia-app
+```
+
+### 2. Instalar dependencias
+
+```bash
+yarn install
+```
+
+### 3. Configurar variables de entorno
+
+Crea un archivo `.env.local` en la raíz del proyecto con tus credenciales:
+
+```env
+GROQ_API_KEY=api_key
+JWT_SECRET=mi_clave_super_secreta_y_larga_123456789
+```
+
+### 4. Ejecutar en modo desarrollo
+
+```bash
+yarn dev
+```
+
+La aplicación estará disponible en: [http://localhost:3000](http://localhost:3000)
+
+
+## 📂 Estructura principal del proyecto
+
+```
+cuidaia-app/
+├── app/
+│   ├── login/
+│   ├── register/
+│   ├── medical-profile/
+│   ├── dashboard/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ai-chat-service.tsx
+│   └── ui/* (componentes de interfaz reutilizables)
+├── public/
+├── styles/
+├── package.json
+└── tsconfig.json
+```
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Brindar a los adultos mayores un asistente digital que facilite su día a día con **tecnología accesible y empática**, mejorando su autonomía, seguridad y bienestar integral.
+
+---
+
+## 🤝 Contribución
+
+¡Las contribuciones son bienvenidas! Para colaborar:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Envía un pull request.
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+## 🚀 Deploy en Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tu-usuario/cuidaia-app)
+
 # AI app for seniors
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*

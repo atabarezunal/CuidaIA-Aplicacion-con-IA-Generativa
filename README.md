@@ -50,6 +50,8 @@ Crea un archivo `.env.local` en la raíz del proyecto con tus credenciales:
 GROQ_API_KEY=api_key
 JWT_SECRET=mi_clave_super_secreta_y_larga_123456789
 ```
+Generar la api key para el correcto funcionamiento de el asistente virtual en el siguiente enlace:https://console.groq.com/home
+
 
 ### 4. Ejecutar en modo desarrollo
 
@@ -88,16 +90,6 @@ Brindar a los adultos mayores un asistente digital que facilite su día a día c
 
 ---
 
-## 🤝 Contribución
-
-¡Las contribuciones son bienvenidas! Para colaborar:
-
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -m 'Agrega nueva funcionalidad'`).
-4. Envía un pull request.
-
----
 
 ## 📜 Licencia
 
